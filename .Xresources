@@ -1,0 +1,19 @@
+*foreground:		rgb:ff/ff/ff
+*background:		rgb:10/10/10
+
+urxvt*scrollBar:	false
+urxvt*background:	rgba:1000/1000/1000/cccc
+
+URxvt.transparent:	true
+URxvt.shading:		20
+
+URxvt.font:		xft:Terminus:size=9
+URxvt.letterSpace:	-1
+
+URxvt.perl-ext-common:	font-size
+
+URxvt.keysym.C-Up:	perl:font-size:increase
+URxvt.keysym.C-Down:	perl:font-size:decrease
+URxvt.keysym.C-equal:	perl:font-size:reset
+	
+	
